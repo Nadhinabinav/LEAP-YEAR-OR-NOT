@@ -1,0 +1,30 @@
+      9.leap year or NOT
+
+CODE:
+
+
+#include <stdio.h>
+
+void main()
+{
+    int year;
+    printf("Enter a year: ");
+    scanf("%d",&year);
+    if(year%4==0){
+        printf("Enter year is leap");
+    }
+    else{
+        printf("Enter year is not a leap");
+    }
+  
+}
+
+OUTPUT:1
+
+Enter a year: 2000
+Enter year is leap
+
+OUTPUT:2
+
+Enter a year: 2009
+Enter year is not a leap
